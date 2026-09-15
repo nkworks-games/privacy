@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>プライバシーポリシー / Privacy Policy — QUAD RING</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1b1d21; --muted:#5b6068; --line:#e3e6ea;
+    --accent:#0a84c4; --card:#f6f8fa;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#14161a; --fg:#e8eaed; --muted:#9aa1ab; --line:#2a2e35;
+           --accent:#4cc2f1; --card:#1c1f25; }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",
+                "Helvetica Neue",Arial,sans-serif;
+    font-size:16px; line-height:1.85;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:48px 20px 96px}
+  header{border-bottom:1px solid var(--line); padding-bottom:24px; margin-bottom:8px}
+  .app{font-size:13px; letter-spacing:.14em; color:var(--muted); text-transform:uppercase; margin:0 0 6px}
+  h1{font-size:26px; line-height:1.35; margin:0 0 10px; font-weight:700}
+  .meta{font-size:14px; color:var(--muted); margin:0}
+  .jump{margin:18px 0 0; font-size:14px}
+  .jump a{color:var(--accent)}
+  h2{font-size:20px; margin:44px 0 12px; padding-top:8px; font-weight:700}
+  h3{font-size:16px; margin:26px 0 8px; font-weight:600}
+  p{margin:0 0 14px}
+  ul{margin:0 0 14px; padding-left:1.35em}
+  li{margin:0 0 7px}
+  .lead{background:var(--card); border:1px solid var(--line); border-radius:10px;
+        padding:16px 18px; margin:22px 0 8px}
+  .lead p:last-child{margin-bottom:0}
+  table{width:100%; border-collapse:collapse; margin:0 0 18px; font-size:15px}
+  th,td{text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top}
+  th{font-weight:600; color:var(--muted); font-size:13px; letter-spacing:.04em}
+  .scroll{overflow-x:auto}
+  /* 狭い画面では3列の表が潰れて読めないので、1件ずつのカードに積み替える */
+  @media (max-width:560px){
+    table,tbody,tr,td,th{display:block; width:100%}
+    table tr:first-child{display:none}
+    table tr{border:1px solid var(--line); border-radius:10px; margin:0 0 12px; padding:6px 0}
+    td{border-bottom:0; padding:4px 14px}
+    td:first-child{font-weight:700; padding-top:10px}
+    td[data-l]{color:var(--muted); font-size:14px; padding-bottom:12px}
+    td[data-l]::before{content:attr(data-l) " — "; font-weight:600; color:var(--fg)}
+  }
+  a{color:var(--accent)}
+  hr{border:0; border-top:1px solid var(--line); margin:64px 0 0}
+  footer{margin-top:28px; font-size:14px; color:var(--muted)}
+  code{background:var(--card); border:1px solid var(--line); border-radius:4px;
+       padding:1px 5px; font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="app">QUAD RING</p>
+  <h1>プライバシーポリシー<br><span style="font-weight:600;font-size:20px;color:var(--muted)">Privacy Policy</span></h1>
+  <p class="meta">発効日: 2026年9月15日 ／ Effective: September 15, 2026<br>
+     提供者: N.K. Works（個人開発） ／ Developer: N.K. Works (individual developer)</p>
+  <p class="jump"><a href="#en">→ English version</a></p>
+</header>
+
+<!-- ==================== 日本語 ==================== -->
+
+<div class="lead">
+  <p><strong>要点</strong></p>
+  <p>QUAD RING は、氏名・メールアドレス・電話番号・住所・位置情報を一切集めません。広告もアプリ内課金も利用状況の解析も入っていません。</p>
+  <p>集めるのは、オンラインランキングを成り立たせるために必要な最小限、すなわち<strong>自動発行される匿名のプレイヤーID</strong>、<strong>あなたが自分で入力したニックネーム</strong>、<strong>エンドレスモードのスコア</strong>の3つだけです。</p>
+</div>
+
+<h2>1. 収集する情報</h2>
+
+<div class="scroll">
+<table>
+  <tr><th>情報</th><th>内容</th><th>目的</th></tr>
+  <tr>
+    <td>匿名プレイヤーID</td>
+    <td>アプリの初回起動時に Unity Gaming Services が自動で発行する文字列です。氏名・メールアドレス・Apple ID・端末の識別子とは結びついていません。</td>
+    <td data-l="目的">ランキング上で同じプレイヤーのスコアを1件にまとめるため</td>
+  </tr>
+  <tr>
+    <td>ニックネーム</td>
+    <td>あなたが画面から入力した表示名です。半角英数字・ハイフン・アンダースコアのみ、15文字までです。<strong>入力は任意</strong>で、入力しない場合は「Player」と表示されます。</td>
+    <td data-l="目的">ランキングに表示するため</td>
+  </tr>
+  <tr>
+    <td>スコア</td>
+    <td>エンドレスモードの得点です。ゲーム終了時に、得点が1点以上のときだけ送信されます。クエストモードの成績は送信しません。</td>
+    <td data-l="目的">ランキングの順位を決めるため</td>
+  </tr>
+</table>
+</div>
+
+<h2>2. 収集しない情報</h2>
+<p>本アプリは、次の情報を収集も送信もしません。</p>
+<ul>
+  <li>氏名、メールアドレス、電話番号、住所、生年月日</li>
+  <li>位置情報</li>
+  <li>連絡先、写真、カメラ、マイク、カレンダー、ヘルスケアなど端末内のデータ</li>
+  <li>広告識別子（IDFA）— 本アプリに広告は含まれません</li>
+  <li>購入履歴 — 本アプリにアプリ内課金はありません</li>
+  <li>行動ログ・利用状況の解析データ — 解析ツールを一切導入していません</li>
+</ul>
+
+<h2>3. 端末の中だけに保存される情報</h2>
+<p>次の情報はお使いの端末内にのみ保存され、どこにも送信されません。アプリを削除すると一緒に消えます。</p>
+<ul>
+  <li>クエストモードの進行状況（どのレベルまで解放したか）</li>
+  <li>入力したニックネーム</li>
+</ul>
+
+<h2>4. 第三者への提供</h2>
+<p>ランキング機能の実現のため、第1章の情報は Unity Technologies が運営する <strong>Unity Gaming Services</strong> のサーバーに保存されます。同社における取り扱いは同社のプライバシーポリシーに従います。</p>
+<ul>
+  <li><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" target="_blank" rel="noopener">Unity Gaming Services プライバシーポリシー</a></li>
+</ul>
+<p>これ以外の第三者に、収集した情報を提供・販売・貸与することはありません。ただし、法令に基づく開示の求めがある場合はこの限りではありません。</p>
+
+<h2>5. 保存期間と削除のご依頼</h2>
+<p>ランキングに登録された匿名ID・ニックネーム・スコアは、削除のご依頼をいただくまで保存されます。</p>
+<p>削除をご希望の場合は、下記の連絡先まで、ランキングに表示されているニックネームを添えてご連絡ください。合理的な期間内に削除します。</p>
+<p>なお、アプリをアンインストールすると匿名IDを保持しているデータも端末から消えるため、以後そのIDと結びつく手段はなくなります。</p>
+
+<h2>6. お子さまのプライバシー</h2>
+<p>本アプリは、13歳未満のお子さまから個人情報を意図的に収集することはありません。万一そのような情報を受け取ったことが判明した場合は、速やかに削除します。</p>
+
+<h2>7. 本ポリシーの変更</h2>
+<p>本ポリシーは、機能の追加などに伴って変更することがあります。重要な変更を行った場合は、本ページの発効日を更新してお知らせします。</p>
+
+<h2>8. お問い合わせ</h2>
+<p>本ポリシーおよびデータの取り扱いに関するお問い合わせ、削除のご依頼は、次の連絡先までお願いします。</p>
+<p><strong>N.K. Works</strong><br>
+メール: <a href="mailto:qda49665@gmail.com">qda49665@gmail.com</a></p>
+
+<hr>
+
+<!-- ==================== English ==================== -->
+
+<h2 id="en" style="margin-top:56px">Privacy Policy (English)</h2>
+
+<div class="lead">
+  <p><strong>In short</strong></p>
+  <p>QUAD RING does not collect your name, email address, phone number, postal address, or location. It contains no advertising, no in-app purchases, and no usage analytics.</p>
+  <p>It collects only the minimum needed to run the online leaderboard: an <strong>automatically generated anonymous player ID</strong>, the <strong>nickname you choose to type in</strong>, and your <strong>Endless mode score</strong>.</p>
+</div>
+
+<h3>1. Information we collect</h3>
+<div class="scroll">
+<table>
+  <tr><th>Data</th><th>What it is</th><th>Why</th></tr>
+  <tr>
+    <td>Anonymous player ID</td>
+    <td>A string generated by Unity Gaming Services the first time the app runs. It is not linked to your name, email address, Apple ID, or any device identifier.</td>
+    <td data-l="Why">To keep one leaderboard entry per player</td>
+  </tr>
+  <tr>
+    <td>Nickname</td>
+    <td>A display name you type in yourself. Letters, digits, hyphen and underscore only, up to 15 characters. <strong>Entering one is optional</strong>; without it you appear as "Player".</td>
+    <td data-l="Why">To show you on the leaderboard</td>
+  </tr>
+  <tr>
+    <td>Score</td>
+    <td>Your Endless mode score. Sent when a run ends, and only if the score is at least 1 point. Quest mode results are never sent.</td>
+    <td data-l="Why">To rank leaderboard entries</td>
+  </tr>
+</table>
+</div>
+
+<h3>2. Information we do not collect</h3>
+<ul>
+  <li>Name, email address, phone number, postal address, date of birth</li>
+  <li>Location data</li>
+  <li>Contacts, photos, camera, microphone, calendar, health or any other on-device data</li>
+  <li>Advertising identifier (IDFA) — the app contains no advertising</li>
+  <li>Purchase history — the app has no in-app purchases</li>
+  <li>Behavioural or usage analytics — no analytics SDK is included</li>
+</ul>
+
+<h3>3. Stored only on your device</h3>
+<p>The following never leaves your device and is removed when you delete the app:</p>
+<ul>
+  <li>Quest mode progress (which levels you have unlocked)</li>
+  <li>The nickname you entered</li>
+</ul>
+
+<h3>4. Sharing with third parties</h3>
+<p>To provide the leaderboard, the data in section 1 is stored on servers operated by Unity Technologies as part of <strong>Unity Gaming Services</strong>, and is handled under their privacy policy:</p>
+<ul>
+  <li><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" target="_blank" rel="noopener">Unity Gaming Services Privacy Policy</a></li>
+</ul>
+<p>We do not sell, rent, or otherwise provide collected data to any other third party, except where disclosure is required by law.</p>
+
+<h3>5. Retention and deletion requests</h3>
+<p>Leaderboard records (anonymous ID, nickname, score) are kept until you ask us to delete them.</p>
+<p>To request deletion, contact us at the address below and include the nickname shown on the leaderboard. We will delete the record within a reasonable period.</p>
+<p>Uninstalling the app also removes the data that holds your anonymous ID from your device, after which there is no way to link that ID back to you.</p>
+
+<h3>6. Children's privacy</h3>
+<p>We do not knowingly collect personal information from children under 13. If we learn that we have received such information, we will delete it promptly.</p>
+
+<h3>7. Changes to this policy</h3>
+<p>This policy may change as the app changes. If we make a significant change, we will update the effective date shown at the top of this page.</p>
+
+<h3>8. Contact</h3>
+<p>For questions about this policy or to request deletion of your data:</p>
+<p><strong>N.K. Works</strong><br>
+Email: <a href="mailto:qda49665@gmail.com">qda49665@gmail.com</a></p>
+
+<footer>
+  <p>QUAD RING — N.K. Works</p>
+</footer>
+
+</div>
+</body>
+</html>
